@@ -5,9 +5,9 @@ const staff = [
     {name: 'pk', salary: 3000},
 ];
 
-const montlySalaryTotal = staff.reduce((total, person)=>{
+const monthlySalaryTotal = staff.reduce((total, person)=>{
     total += person.salary;
     return total;
 }, 0) // This zero indicates the total will be initially 0
 
-console.log(montlySalaryTotal);
+console.log(monthlySalaryTotal);
