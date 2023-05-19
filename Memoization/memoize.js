@@ -17,9 +17,9 @@ function memoizeSquare(num){
       }}
 }
 
-const ans = memoizeSquare(3);
+const ans = memoizeSquare(3); 
 
-console.log("1.",ans());
-console.log("2.",ans());
-console.log("3.",ans());
-console.log("4.",ans());
+console.log("1.",ans()); // function call
+console.log("2.",ans()); // 9
+console.log("3.",ans()); // 9
+console.log("4.",ans()); // 9
